@@ -1,0 +1,944 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar */
+
+.dark-btn,
+.dark-btn:hover,
+.dark-btn:focus {
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.navbar-nav li a {
+    font-weight: 300;
+}
+
+.navbar,
+.page-header {
+    background: #161D2F;
+}
+
+.dark-btn {
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border-radius: 28px;
+    border: none;
+    padding: 12px 37px;
+}
+
+
+/* page-header */
+
+.header-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn {
+    border-radius: 28px;
+    margin-left: 15px;
+}
+
+.header-btn:hover {
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.page-header {
+    color: #FFFFFF;
+}
+
+.page-header h7 {
+    font-weight: 300;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.page-header h1 {
+    font-weight: bold;
+    /* font-size: 62px; */
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.page-header p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.page-header img {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/* programs */
+
+.programs h7 {
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.programs h1 {
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.swiper-slide img {
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+.swiper-slide .swiper-link a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3043A9;
+}
+
+.bi-arrow-right {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.swiper-slide h4 {
+    font-size: 30px;
+}
+
+.ProgAuthor {
+    font-size: 14px;
+}
+
+.ProgDesc {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.swiper-wrapper {
+    margin-bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+    background: #37469B;
+}
+
+
+/* nutrition */
+
+.nutrition {
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+.nutritionInfo {
+    margin-top: 7%;
+}
+
+.nutritionInfo h7 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nutritionInfo h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.nutritionInfo p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.nutritionInfo p span {
+    font-weight: 500;
+}
+
+.nutritionRow {
+    margin-left: 5%;
+}
+
+
+/* price */
+
+.price {
+    margin-bottom: 100px;
+    background: rgb(9, 32, 63);
+    background: linear-gradient(180deg, rgba(9, 32, 63, 1) 0%, rgba(22, 29, 47, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.price h1,
+.price h7 {
+    color: white;
+}
+
+.price h7 {
+    margin-top: 100px;
+    font-size: 14px;
+}
+
+.price h1 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+
+/* cards */
+
+.program-cards {
+    justify-content: space-around;
+}
+
+.program-card {
+    max-width: 350px;
+    background: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 35px rgba(112, 144, 176, 0.2);
+    border-radius: 35px;
+}
+
+.program-card-body {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.program-card-body h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+.program-card-body p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.program-card-body ul {
+    list-style-type: none;
+    text-align-last: left;
+    margin-left: 12%;
+}
+
+.program-card-body ul li {
+    background-image: url(../img/cards/check.png);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.program-card-body h4 span {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* benefits */
+
+.benefit-title-row,
+.benefit-table {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.benefits h7 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.benefits h1 {
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.benefits img {
+    object-fit: contain;
+    width: 70px;
+    /* height: 70px; */
+    margin-top: -7%;
+    margin-left: 15px;
+}
+
+.benefit-table hr {
+    transform: rotate(90deg);
+}
+
+.benefit-table h3 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.benefit-table p {
+    font-size: 18px;
+}
+
+.benefit-card-row {
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.benefit-card {
+    display: flex;
+}
+
+.card-Info {
+    margin-left: 4%;
+}
+
+.card-Info h4 {
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.card-Info p {
+    text-transform: capitalize;
+}
+
+
+/* contact */
+
+.contact {
+    margin-bottom: 100px;
+}
+
+.contact-container {
+    background: #161D2F;
+    border-radius: 20px;
+}
+
+.contact-form {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.contact-form h1 {
+    font-weight: 600;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contact-form-btn {
+    margin-bottom: 150px;
+}
+
+.contact-form-btn input {
+    background: none;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 34px;
+    padding: 7px 42px 7px 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+.contact-image {
+    margin-top: 70px;
+}
+
+.contact-image img {
+    border-radius: 8px;
+}
+
+.contact-image-1,
+.contact-image-2 {
+    margin-bottom: 15px;
+}
+
+.contact-image-2,
+.contact-image-4 {
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+
+/* footer */
+
+footer h3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+footer h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #161D2F;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #222222;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.social-links a {
+    margin-left: 3px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.footer-upper-row {
+    margin-bottom: 50px;
+}
+
+.footer-bottom-row p {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+/* меньше или равна 1200 */
+
+@media (max-width: 1200px) {
+    .nutrition {
+        margin-bottom: 50px;
+    }
+    .nutritionInfo h2 {
+        font-size: 35px;
+    }
+    .nutritionInfo p {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .price h7 {
+        margin-top: 70px;
+    }
+    .benefits img {
+        margin-top: -13%;
+    }
+    .dark-btn {
+        padding: 11px 27px;
+    }
+    .swiper-slide h4 {
+        font-size: 25px;
+    }
+}
+
+
+/* меньше или равна 992 */
+
+@media (max-width: 992px) {
+    .nutritionInfo h2 {
+        font-size: 27px;
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+    .nutritionInfo h7 {
+        font-size: 13px;
+    }
+    .swiper-slide h4 {
+        font-size: 26px;
+    }
+    .ProgDesc {
+        font-size: 13px;
+    }
+    .nutritionInfo p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .price h1 {
+        font-size: 35px;
+    }
+    .program-card-body {
+        margin-top: 15px;
+    }
+    .program-card-body ul {
+        margin-left: 6%;
+    }
+    .program-card-body h4 {
+        font-size: 23px;
+    }
+    .benefits h1 {
+        font-size: 31px;
+        margin-top: 0;
+    }
+    .benefits img {
+        margin-top: -8%;
+    }
+    .benefit-table h3 {
+        font-size: 40px;
+    }
+    .benefit-table p {
+        font-size: 13px;
+    }
+    .card-Info h4 {
+        font-size: 24px;
+    }
+    .card-Info p {
+        font-size: 13px;
+    }
+    .benefits img {
+        margin-top: -14%;
+        width: 60 px;
+    }
+    .footer-nav a {
+        font-size: 14px;
+    }
+    .swiper-slide h4 {
+        font-size: 20px;
+    }
+    .swiper-slide .swiper-link a {
+        font-size: 12px;
+    }
+    .bi-arrow-right {
+        margin-left: 6px;
+        font-size: 21px;
+    }
+    .programs h7 {
+        font-size: 13px;
+        margin-top: 50px;
+    }
+    .programs h1 {
+        font-size: 28px;
+    }
+}
+
+
+/* больше 768 и меньше 992 */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .page-header h1 {
+        font-size: 31px;
+    }
+    .page-header p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .page-header h7 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .header-btns button {
+        width: 158px;
+        height: 53px;
+    }
+    .nutritionInfo h2 {
+        font-size: 18px;
+    }
+    .nutritionInfo p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .nutritionInfo {
+        margin-top: 4%;
+    }
+    .nutritionInfo button {
+        font-size: 11px;
+        width: 106px;
+        height: 39px;
+    }
+    .nutrition {
+        margin-top: 70px;
+    }
+    .price h7 {
+        font-size: 13px;
+    }
+    .price h1 {
+        font-size: 25px;
+    }
+    .program-card-body ul {
+        margin-left: -13%;
+    }
+    .program-card-body ul {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .program-card-body h4 {
+        font-size: 17px;
+    }
+    .ul-card-1 {
+        margin-bottom: 33.5px;
+    }
+    .ul-card-2 {
+        margin-bottom: 24.8px;
+    }
+    .program-card-body p {
+        font-size: 17px;
+    }
+    .benefits h1 {
+        font-size: 22px;
+    }
+    .benefit-table h3 {
+        font-size: 30px;
+    }
+    .benefit-table p {
+        font-size: 9px;
+    }
+    .card-Info h4 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .card-Info p {
+        font-size: 10px;
+    }
+    .benefits img {
+        margin-top: -14%;
+        width: 50px;
+    }
+    .benefit-title-row img {
+        margin-top: -4%;
+        margin-left: 0%;
+        width: 50px;
+    }
+    .contact-form h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .contact-image img {
+        object-fit: contain;
+        width: 100px;
+        height: 100px;
+    }
+    .contact-form {
+        margin-top: 60px;
+    }
+    .contact-image {
+        margin-top: 50px;
+    }
+    .contact-form-btn {
+        margin-bottom: 85px;
+    }
+    .contact-form-btn input {
+        /* width: 150px; */
+        /* height: 50px; */
+        font-size: 12px;
+        padding: 0;
+        padding-top: 8px;
+        padding-left: 7px;
+        padding-right: 15px;
+        padding-bottom: 8px;
+    }
+    .contact-form-btn input:focus {
+        border: none;
+    }
+    .contact-form-btn button {
+        width: 106px;
+        height: 36px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .dark-btn,
+    .header-btn {
+        font-size: 14px;
+    }
+    .swiper-slide h4 {
+        font-size: 17px;
+    }
+    .ProgAuthor {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .ProgDesc {
+        font-size: 11px;
+    }
+    .swiper-slide .swiper-link a {
+        font-size: 10px;
+    }
+    .nutrition {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .nutritionInfo p {
+        font-size: 14px;
+    }
+    .nutritionInfo h2 {
+        font-size: 31px;
+    }
+    .price {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .price h1 {
+        font-size: 29px;
+    }
+    .price h7 {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    .program-card {
+        margin-bottom: 30px;
+    }
+    br {
+        display: none;
+    }
+    .program-card-body ul {
+        margin-left: -18%;
+    }
+    .program-card-body ul li {
+        font-size: 11px;
+        background-size: 15px 15px;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .program-card-body h4 {
+        font-size: 18px;
+    }
+    .program-price h4 {
+        font-size: 14px;
+    }
+    .program-price h4 span {
+        font-size: 12px;
+    }
+    .program-card-body {
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .program-price button {
+        font-size: 11px;
+    }
+    .program-card-body img {
+        width: 133px;
+    }
+    .program-card-body p {
+        font-size: 15px;
+    }
+    .ul-card-2 {
+        margin-bottom: 31%;
+    }
+    .ul-card-1 {
+        margin-bottom: 49%;
+    }
+    .benefits h1 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .benefits h7 {
+        font-size: 12px;
+    }
+    .benefits img {
+        margin-top: -10%;
+        width: 60px;
+    }
+    .benefit-table h3 {
+        font-size: 30px;
+    }
+    .benefits img {
+        margin-top: -7%;
+        width: 55px;
+    }
+    .contact-form {
+        margin-left: 15px;
+        margin-top: 30px;
+        /* margin-bottom: 20px; */
+    }
+    .contact-image {
+        display: none;
+    }
+    .contact-form-btn {
+        margin-bottom: 20px;
+    }
+    /* .contact-image {
+        margin-top: -15% !important;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0;
+    }
+    .contact-image img {
+        border-radius: 8px;
+        width: 120px;
+        height: 120px;
+    } */
+    .contact-image-2,
+    .contact-image-4 {
+        margin-bottom: 0;
+    }
+    .contact-form h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    footer h4 {
+        margin-bottom: 0;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    footer p {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer-nav a {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .footer-nav {
+        margin-top: 5px;
+    }
+    .body {
+        display: none;
+    }
+    .nutritionRow {
+        margin: 0;
+    }
+}
+
+
+/* CONTINUE AT BENEFIT SECTION */
+
+@media (max-width: 576px) {
+    .headerBtn {
+        display: none;
+        padding: 10px 15px;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .contact-form {
+        margin-left: 0;
+    }
+    .program-card-body ul {
+        margin-left: -12%;
+    }
+    .page-header h7,
+    .programs h7,
+    .price h7 {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .page-header h1,
+    .programs h1,
+    .price h1 {
+        font-size: 21px;
+    }
+    .page-header p {
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .header-btn {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .swiper-slide {
+        text-align: center;
+        background: #f5f5f5;
+        border-radius: 35px;
+    }
+    .swiper-slide img {
+        margin-top: 25px;
+        width: 250px;
+    }
+    .ProgAuthor {
+        margin-bottom: 5px;
+    }
+    .nutrition {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .price h7 {
+        margin-left: 10px;
+    }
+    br {
+        display: none;
+    }
+    .program-card-body img {
+        width: 95%;
+    }
+    .program-card {
+        margin-bottom: 15px;
+    }
+    .benefits h1 {
+        font-size: 22px;
+    }
+    .benefits img {
+        margin-top: -8%;
+        width: 55px;
+    }
+    .benefit-table h3 {
+        font-size: 30px;
+    }
+    .program-card-body h4 {
+        font-size: 18px;
+    }
+    .program-card-body h4 span {
+        font-size: 14px;
+    }
+    .benefits img {
+        margin-top: -27%;
+    }
+    .contact-form h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+    .contact-form-btn input {
+        margin-bottom: 15px;
+    }
+    .contact-image {
+        display: none;
+    }
+    .contact-form-btn {
+        margin-bottom: 20px;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-nav {
+        text-align: center;
+        max-height: 160px;
+        margin-top: 20px;
+        /* text-align-last: left; */
+    }
+    .footer-nav h4 {
+        line-height: 13px;
+        font-weight: 800;
+        max-height: 24px;
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .footer-nav a {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .footer-nav-first {
+        margin-left: 10%;
+    }
+}
